@@ -1,8 +1,34 @@
 aid: cerpro
 name: CERPRO
-description: CERPRO is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CERPRO is a Berlin-based industrial software company building AI-powered
+  quality-assurance and process automation for small and medium-sized
+  manufacturers. Its flagship product, QualiSpec, uses computer-vision and
+  large-model AI to automatically extract features, dimensions, tolerances and
+  drill-hole specifications from technical drawings (PDF, JPG, DXF) and generate
+  inspection reports and quality documents in customized templates such as VDA,
+  EMPB and inspection plans. This removes manual copy-paste and data-entry work
+  from quality control, cutting documentation time by up to 70-90% and reducing
+  errors while creating a unified data foundation that connects OEMs and
+  suppliers. Since launching in December 2024 the software has been adopted by
+  more than 100 SMEs across aerospace, medical devices and mechanical
+  engineering. CERPRO is a Techstars portfolio company and raised a ~EUR 2M
+  pre-seed round in 2025. The product is delivered as a cloud SaaS platform
+  (platform.cerpro.io) hosted on AWS in Germany, with an ISO 27001 certified,
+  GDPR/BDSG-compliant data-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/cerpro/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cerpro.io/wp-content/uploads/2023/11/CERPRO_Logo-hell.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Manufacturing
+- Quality Assurance
+- Artificial Intelligence
+- Manufacturing Intelligence
+- Document Extraction
+- SaaS
+- Germany
+- Metalworking
+- Inspection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +57,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cerpro.io/
+  url: https://cerpro.io/en/
+- type: Login
+  url: https://platform.cerpro.io/
+- type: Blog
+  url: https://cerpro.io/en/wiki/
+- type: Compliance
+  url: https://cerpro.io/en/data-security/
+- type: TermsOfService
+  url: https://cerpro.io/en/agb/
+- type: PrivacyPolicy
+  url: https://cerpro.io/en/privacy-policy/
+- type: DomainSecurity
+  url: security/cerpro-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
